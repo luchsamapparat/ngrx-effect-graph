@@ -1,0 +1,28 @@
+{
+  "name": "ngrx-effect-graph",
+  "version": "0.0.1",
+  "description": "Visualize your ngrx effects graph",
+  "scripts": {
+    "start": "ts-node --project=tsconfig.json index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "ngrx",
+    "graph",
+    "effects"
+  ],
+  "author": "Marvin Luchs <marvin@luchs.org>",
+  "license": "ISC",
+  "dependencies": {
+    "ts-simple-ast": "^8.0.0",
+    "viz.js": "^1.8.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/yargs": "^11.0.0",
+    "ts-node": "^5.0.0",
+    "tslint-config-luchsamapparat": "^1.2.0",
+    "typescript": "^2.7.2"
+  }
+}
